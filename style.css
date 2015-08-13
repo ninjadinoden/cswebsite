@@ -48,6 +48,7 @@ body {
   border-right: 1px solid grey;
   vertical-align: middle;
   display: inline-block;
+  font-size: 3.5vh
 }
 
 ul .nav:last-child {
@@ -78,11 +79,6 @@ a {
 a:hover {
   color: rgb(234, 216, 50);
 }
-
-ul{
-  height: 100%;
-  width: 100%;
-  }
 
 #header img:hover{
   background-image: url('D:\work\project1-master\images\logo2.png');
