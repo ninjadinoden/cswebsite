@@ -67,9 +67,12 @@ ul .nav:last-child {
   padding: 5px
 }
 
+#logo{
+  background: url(images/logo1.png);
+}
 
 #logo:hover{
-  content: url(images/logo2.png);
+  background: url(images/logo2.png);
 }
 a {
   color: rgb(50, 234, 231);
