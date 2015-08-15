@@ -37,15 +37,17 @@ body {
 
 .nav {
   display: inline-block;
-  color: rgb(234, 216, 50);
-  padding: 2.4% 5.8%;
-  border-right: 1px solid grey;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease;
+  padding: 3.605% 5.8%;
   vertical-align: middle;
   display: inline-block;
-}
+}  
 
-ul .nav:last-child {
-  border: 0px;
+.nav:hover{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 #listlogo{
@@ -66,12 +68,12 @@ ul .nav:last-child {
 }
 a {
   font-size: 2.3vw;
-  color: rgb(50, 234, 231);
+  color: inherit;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(234, 216, 50);
+  color: inherit
 }
 
 ul{
@@ -127,15 +129,16 @@ body {
 
 .nav {
   display: inline-block;
-  color: rgb(234, 216, 50);
   padding: 25px 60px;
-  border-right: 1px solid grey;
   vertical-align: middle;
   display: inline-block;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease;
 }
 
-ul .nav:last-child {
-  border: 0px;
+.nav:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 #listlogo{
@@ -156,12 +159,12 @@ ul .nav:last-child {
 }
 a {
   font-size: 20px;
-  color: rgb(50, 234, 231);
   text-decoration: none;
+  color: inherit;
 }
 
-a:hover {
-  color: rgb(234, 216, 50);
+a:hover{
+  color: inherit;
 }
 
 ul{
