@@ -1,4 +1,91 @@
 @import url(fontstyle.css);
+@media all and (min-width: 0px) {
+body {
+  background-image: url(images/background.png);
+  background-repeat: repeat;
+}
+
+#header{
+	background-color: rgba(0, 0, 0, 0.8);
+	font-family: 'Ubuntu';
+}
+#header ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 0;
+}
+
+#main-container{
+	background-color: rgba(0, 0, 0, 0.35);
+	color: white;
+	display: block
+}
+#content{
+	display: inline-block;
+	width: 55%;
+	padding: 10px 1% 10px 1%;
+}
+#sidebar{
+	display: inline-block;
+	vertical-align: top;
+	width: 42%;
+	padding: 10px 0px
+}
+
+#sidebar iframe{
+	height: 50vh;
+}
+
+.nav {
+  display: inline-block;
+  color: rgb(234, 216, 50);
+  padding: 2.4% 5.8%;
+  border-right: 1px solid grey;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+ul .nav:last-child {
+  border: 0px;
+}
+
+#listlogo{
+  display: inline-block;
+}
+
+#logo {
+  display: inline-block;
+  width: 20vw;
+  height: auto;
+  vertical-align: middle;
+  padding: 0.5%;
+}
+
+
+#logo:hover{
+  content: url(images/logo2.png);
+}
+a {
+  font-size: 2.3vw;
+  color: rgb(50, 234, 231);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(234, 216, 50);
+}
+
+ul{
+  height: 100%;
+  width: 100%;
+  }
+
+#header img:hover{
+  background-image: url('D:\work\project1-master\images\logo2.png');
+}
+}
+
+@media all and (min-width: 1025px) {
 body {
   background-image: url(images/background.png);
   background-repeat: repeat;
@@ -42,9 +129,8 @@ body {
 
 .nav {
   display: inline-block;
-  font-size: 20px;
   color: rgb(234, 216, 50);
-  padding: 19px 60px;
+  padding: 25px 60px;
   border-right: 1px solid grey;
   vertical-align: middle;
   display: inline-block;
@@ -66,14 +152,12 @@ ul .nav:last-child {
   padding: 5px
 }
 
-#logo{
-  background: url(images/logo1.png);
-}
 
 #logo:hover{
-  background: url(images/logo2.png);
+  content: url(images/logo2.png);
 }
 a {
+  font-size: 20px;
   color: rgb(50, 234, 231);
   text-decoration: none;
 }
@@ -89,4 +173,5 @@ ul{
 
 #header img:hover{
   background-image: url('D:\work\project1-master\images\logo2.png');
+}
 }
