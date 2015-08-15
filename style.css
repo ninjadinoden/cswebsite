@@ -1,5 +1,4 @@
 @import url(fontstyle.css);
-@media all and (min-width: 0px) {
 body {
   background-image: url(images/background.png);
   background-repeat: repeat;
@@ -82,7 +81,6 @@ ul{
 
 #header img:hover{
   background-image: url('D:\work\project1-master\images\logo2.png');
-}
 }
 
 @media all and (min-width: 1025px) {
