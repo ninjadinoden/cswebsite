@@ -25,11 +25,9 @@ h1 {
 #main-container{
 	background-color: rgba(0, 0, 0, 0.35);
 	color: white;
-	display: block
+	display: block;
 }
 #content{
-	display: inline-block;
-	width: 70%;
 	padding: 10px 1% 10px 1%;
 }
 
@@ -42,10 +40,7 @@ h1 {
 	padding-left: 
 }
 #sidebar{
-	display: inline-block;
-	vertical-align: top;
-	width: 26.5%;
-	padding: 10px 0px
+	padding: 10px 1% 10px 1%
 }
 
 
@@ -106,6 +101,14 @@ h1 {
 	font-family: 'Ubuntu';
 }
 
+h2 {
+	font-size: 20px
+}
+
+p {
+	font-size: 16px
+}
+
 #header{
 	width: 100%;
 	background-color: rgba(0, 0, 0, 1);
@@ -121,11 +124,15 @@ h1 {
 	width: 90%;
 	margin: auto;
 	background-color: transparent;
-	display: flex;
+	display: block;
+	font-size: 0;
 }
 #content{
 	width: 70%;
 	padding: 10px 0px; 
+	display: inline-block;
+	margin-right: 1%;
+	vertical-align: top;
 }
 
 #post1 iframe{
@@ -143,17 +150,26 @@ h1 {
 
 #seperation{
 	padding: 5px;
-	border: 5px;
+	display: inline-block;
 }
 
 #sidebar{
-	vertical-align: top;
-	width: 30%;
+	width: 29%;
 	padding: 10px 0px;
+	display: inline-block;
+}
+
+#csgoloungewrapper{
+	text-align: center;
+}
+#sidebar a{
+	display: inline-block;
+	width: 50%;
 }
 
 #csgoloungeicon{
 	width: 100%;
+	margin: auto;
 	height: auto;
 }
 
