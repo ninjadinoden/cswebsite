@@ -10,6 +10,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 	background-attachment: fixed;
+	min-height: 91vh;
 }
 
 #header{
@@ -33,7 +34,7 @@ h1 {
 
 #post1 iframe{
 	width: 100%;
-	height: 50vh;
+	height: 60vh;
 }
 
 #post1{
@@ -89,6 +90,12 @@ ul{
   height: 100%;
   width: 100%;
   }
+
+#csgoloungeicon{
+	width: 100%;
+	margin: auto;
+	height: auto;
+}
 
 #header img:hover{
   background-image: url('D:\work\project1-master\images\logo2.png');
@@ -170,12 +177,6 @@ p {
 #sidebar a{
 	display: inline-block;
 	width: 50%;
-}
-
-#csgoloungeicon{
-	width: 100%;
-	margin: auto;
-	height: auto;
 }
 
 .nav {
