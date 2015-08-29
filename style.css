@@ -72,10 +72,6 @@ h1 {
   padding: 0.5%;
 }
 
-
-#logo:hover{
-  content: url(images/logo2.png);
-}
 a {
   font-size: 2.8vw;
   color: inherit;
@@ -95,10 +91,6 @@ ul{
 	width: 100%;
 	margin: auto;
 	height: auto;
-}
-
-#header img:hover{
-  background-image: url('D:\work\project1-master\images\logo2.png');
 }
 
 @media screen and (min-width: 980px) {
