@@ -8,7 +8,7 @@ h1 {
 #background {
 	background-image: url(images/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 	background-attachment: fixed;
 }
 
@@ -28,7 +28,7 @@ h1 {
 	display: block;
 }
 #content{
-	padding: 10px 1% 10px 1%;
+	padding: 0px 1%;
 }
 
 #post1 iframe{
@@ -37,7 +37,7 @@ h1 {
 }
 
 #post1{
-	padding-left: 
+	padding-left:
 }
 #sidebar{
 	padding: 10px 1% 10px 1%
@@ -51,7 +51,7 @@ h1 {
   padding: 3.34% 4.5%;
   vertical-align: middle;
   display: inline-block;
-}  
+}
 
 .nav:hover{
   background-color: white;
@@ -121,7 +121,7 @@ p {
 }
 
 #main-container{
-	width: 90%;
+	width: 80%;
 	margin: auto;
 	background-color: transparent;
 	display: block;
@@ -129,10 +129,10 @@ p {
 }
 #content{
 	width: 70%;
-	padding: 10px 0px; 
+	padding: 10px 1% 10px 0px;
 	display: inline-block;
-	margin-right: 1%;
 	vertical-align: top;
+	height: 100vh;
 }
 
 #post1 iframe{
@@ -148,11 +148,6 @@ p {
 	background-color: rgba(0 ,0 ,0 ,0.5)
 }
 
-#seperation{
-	padding: 5px;
-	display: inline-block;
-}
-
 #sidebar{
 	width: 29%;
 	padding: 10px 0px;
@@ -161,6 +156,11 @@ p {
 
 #csgoloungewrapper{
 	text-align: center;
+	padding: 10px;
+	border: 1px solid;
+	border-color: rgba(0 ,0 ,0 ,0.5);
+	border-radius: 5px;
+	background-color: rgba(0 ,0 ,0 ,0.5)
 }
 #sidebar a{
 	display: inline-block;
@@ -211,9 +211,13 @@ a:hover{
 ul{
   height: 100%;
   width: 100%;
-  }
+}
 
 #header img:hover{
   background-image: url('D:\work\project1-master\images\logo2.png');
 }
+
+.derp{
+  height: 500px;
+  width: 100%;
 }
